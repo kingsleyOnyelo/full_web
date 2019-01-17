@@ -1,0 +1,82 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/* .myNav{
+    background-color: lightslategrey;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+} */
+.brand{
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    color: coral;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+.brand2{
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    color: dodgerblue;
+    display: inline-block;
+}
+.menuBar{
+    display: inline-block;
+    padding-left: 16px;
+    margin-top: 4px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+}
+
+ul{
+    float: right;
+}
+ul a{
+    text-decoration:none;
+    color: black;
+    font-size: 20px;
+}
+ul a:hover{
+    color: brown;
+    text-decoration: none;
+    font-size: 21px;
+}
+
+.wrapper{
+    background-image: url("recreate.jpg");
+    background-size: cover;
+    height: 100vh;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+}
+
+.myForm{
+    width: 400px;
+    height: 385px;
+    
+    margin: auto;
+    margin-top: 70px;
+}
+
+.form-control:hover{
+    background: green;
+    opacity: 0.5;
+   
+}
+
+::placeholder {
+    color: red;
+    opacity: 1; /* Firefox */
+  }
+.form1{
+    padding-top: 30px;
+   
+}
+.lbl{
+    color: white;
+}
+.sel{
+    border-radius: 5px;
+}
